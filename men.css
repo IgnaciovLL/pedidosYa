@@ -1,0 +1,118 @@
+body{
+    padding: 10px 10px 0;
+    margin: 10px 20px 0;
+    background-image: url(fondo.jpg);
+}
+
+header{
+    padding: 5px 10px;
+    margin: 5px 5px;
+    background-color: white;
+    display: flex;
+    border: 1px;
+    border-radius: 30px;
+}
+
+nav {
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 2px;
+    margin-right: 50px;
+  }
+
+.menu {
+    position: absolute;
+    right: 5%;
+    font-size: 25px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.menu a:hover{
+  color: rgb(92, 84, 84);
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 50px;
+}
+input[type="search"],
+select{
+    float: center;
+    border: 1px;
+    border-radius: 20px;
+    width: 25cm;
+    height: 50px;
+}
+
+input[type="search"]:hover{
+  border-radius: 25px;
+    width: 25.5cm;
+    height: 55px;
+}
+select:hover{
+  border: 1px;
+    border-radius: 25px;
+    width: 25.5cm;
+    height: 55px;
+}
+
+.sel{
+  border: 1px;
+  border-radius: 20px;
+}
+
+input[type="submit"] {
+  background-color: #fc4f0b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  float: center;
+  width: 4cm;
+  height: 1.6cm;
+  font-size: 15px;
+}
+
+input[type="submit"]:hover{
+  background-color: #f07706;
+  color: black;
+  font-size: 20px;
+  width: 5cm;
+  height: 1.7cm;
+}
+
+footer{
+  padding: 1px 10px;
+  margin: 10px 10px;
+  background-color: rgb(202, 33, 33);
+  border: 1px;
+  border-radius: 35px;
+}
+
+.pai{
+  float: center;
+  text-align: center;
+}
+
+h3{
+  float: center;
+  font-size: 30px;
+}
+
+p{
+  font-size: 20px;
+}
